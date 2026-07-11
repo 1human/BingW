@@ -1,0 +1,58 @@
+[
+    {
+        "merged": "com.example.bingwallpaper.app-release-51:/drawable_ic_more_vert.xml.flat",
+        "source": "com.example.bingwallpaper.app-main-52:/drawable/ic_more_vert.xml"
+    },
+    {
+        "merged": "com.example.bingwallpaper.app-release-51:/layout_activity_viewer.xml.flat",
+        "source": "com.example.bingwallpaper.app-main-52:/layout/activity_viewer.xml"
+    },
+    {
+        "merged": "com.example.bingwallpaper.app-release-51:/xml-v35__generated_res_locale_config.xml.flat",
+        "source": "com.example.bingwallpaper.app-localeConfig-45:/xml-v35/_generated_res_locale_config.xml"
+    },
+    {
+        "merged": "com.example.bingwallpaper.app-release-51:/menu_main_menu.xml.flat",
+        "source": "com.example.bingwallpaper.app-main-52:/menu/main_menu.xml"
+    },
+    {
+        "merged": "com.example.bingwallpaper.app-release-51:/layout_activity_settings.xml.flat",
+        "source": "com.example.bingwallpaper.app-main-52:/layout/activity_settings.xml"
+    },
+    {
+        "merged": "com.example.bingwallpaper.app-release-51:/xml__generated_res_locale_config.xml.flat",
+        "source": "com.example.bingwallpaper.app-localeConfig-45:/xml/_generated_res_locale_config.xml"
+    },
+    {
+        "merged": "com.example.bingwallpaper.app-release-51:/layout_item_wallpaper.xml.flat",
+        "source": "com.example.bingwallpaper.app-main-52:/layout/item_wallpaper.xml"
+    },
+    {
+        "merged": "com.example.bingwallpaper.app-release-51:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "com.example.bingwallpaper.app-main-52:/drawable/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.example.bingwallpaper.app-release-51:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.example.bingwallpaper.app-main-52:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "com.example.bingwallpaper.app-release-51:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.example.bingwallpaper.app-main-52:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.example.bingwallpaper.app-release-51:/layout_activity_main.xml.flat",
+        "source": "com.example.bingwallpaper.app-main-52:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.example.bingwallpaper.app-release-51:/drawable_ic_arrow_up.xml.flat",
+        "source": "com.example.bingwallpaper.app-main-52:/drawable/ic_arrow_up.xml"
+    },
+    {
+        "merged": "com.example.bingwallpaper.app-release-51:/layout_item_viewer_image.xml.flat",
+        "source": "com.example.bingwallpaper.app-main-52:/layout/item_viewer_image.xml"
+    },
+    {
+        "merged": "com.example.bingwallpaper.app-release-51:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.example.bingwallpaper.app-main-52:/mipmap-anydpi-v26/ic_launcher.xml"
+    }
+]

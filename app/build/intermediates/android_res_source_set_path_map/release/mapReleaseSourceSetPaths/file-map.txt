@@ -1,0 +1,11 @@
+com.example.bingwallpaper.app-pngs-0 C:\Users\G\StudioProjects\BingW\app\build\generated\res\pngs\release
+com.example.bingwallpaper.app-resValues-1 C:\Users\G\StudioProjects\BingW\app\build\generated\res\resValues\release
+com.example.bingwallpaper.app-updated_navigation_xml-2 C:\Users\G\StudioProjects\BingW\app\build\generated\updated_navigation_xml\release
+com.example.bingwallpaper.app-release-3 C:\Users\G\StudioProjects\BingW\app\build\intermediates\generated_locale_config_incremental_dir\release\generateReleaseLocaleConfig
+com.example.bingwallpaper.app-packageReleaseResources-4 C:\Users\G\StudioProjects\BingW\app\build\intermediates\incremental\release\packageReleaseResources\merged.dir
+com.example.bingwallpaper.app-packageReleaseResources-5 C:\Users\G\StudioProjects\BingW\app\build\intermediates\incremental\release\packageReleaseResources\stripped.dir
+com.example.bingwallpaper.app-merged-not-compiled-resources-6 C:\Users\G\StudioProjects\BingW\app\build\intermediates\merged-not-compiled-resources\release
+com.example.bingwallpaper.app-release-7 C:\Users\G\StudioProjects\BingW\app\build\intermediates\merged_res\release\mergeReleaseResources
+com.example.bingwallpaper.app-main-8 C:\Users\G\StudioProjects\BingW\app\src\main\res
+com.example.bingwallpaper.app-release-9 C:\Users\G\StudioProjects\BingW\app\src\release\res
+gradleHome-0 C:\Users\G\.gradle
