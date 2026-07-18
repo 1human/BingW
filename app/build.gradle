@@ -1,0 +1,70 @@
+plugins {
+    id("com.android.application")
+    id("com.google.devtools.ksp")
+}
+
+android {
+    namespace = "com.example.bingwallpaper"
+    compileSdkVersion("android-37.1")
+
+    androidResources {
+        generateLocaleConfig = true
+    }
+
+    defaultConfig {
+        applicationId = "com.example.bingwallpaper"
+        minSdk = 34
+        targetSdk = 37.1
+        versionCode = 1
+        versionName = "1.0"
+
+        resConfigs "zh-rCN", "en"
+
+        ndk {
+            //noinspection ChromeOsAbiSupport
+            abiFilters "arm64-v8a"
+        }
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled = true
+            shrinkResources = true
+            proguardFiles(getDefaultProguardFile("proguard-android-optimize.txt"), "proguard-rules.pro")
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility = JavaVersion.VERSION_17
+        targetCompatibility = JavaVersion.VERSION_17
+    }
+
+    buildFeatures {
+        viewBinding = true
+    }
+
+    androidComponents {
+        beforeVariants(selector().all()) { variantBuilder ->
+            variantBuilder.enableUnitTest = false
+            variantBuilder.enableAndroidTest = false
+        }
+    }
+}
+
+dependencies {
+    implementation("androidx.core:core-ktx:1.19.0")
+    implementation("androidx.appcompat:appcompat:1.7.1")
+    implementation("com.google.android.material:material:1.14.0")
+    implementation("androidx.work:work-runtime-ktx:2.11.2")
+    implementation("androidx.activity:activity-ktx:1.13.0")
+    implementation("androidx.constraintlayout:constraintlayout:2.2.1")
+    implementation("androidx.recyclerview:recyclerview:1.4.0")
+    implementation("androidx.swiperefreshlayout:swiperefreshlayout:1.2.0")
+    implementation("com.github.bumptech.glide:glide:5.0.9")
+    ksp("com.github.bumptech.glide:ksp:5.0.9")
+
+    // Room
+    implementation("androidx.room:room-runtime:2.8.4")
+    implementation("androidx.room:room-ktx:2.8.4")
+    ksp("androidx.room:room-compiler:2.8.4")
+}
